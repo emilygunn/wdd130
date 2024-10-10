@@ -1,0 +1,62 @@
+/*Box Borders*/
+/* * {
+    border: 1px solid black;
+} */
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(99, 163, 227);
+
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+}
+
+h1, h4, ol, footer {
+    font-family: sans-serif;
+}
+
+header p {
+    font-size: small;
+}
+
+ol {
+    width: 70%;
+    margin: 0 auto;
+    color: black;
+    font-weight: bolder;
+    font-size: small;
+}
+
+li {
+    line-height: 150%;
+}
+
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.quote {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
