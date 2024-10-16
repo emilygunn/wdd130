@@ -1,3 +1,15 @@
+/* * {
+    border: 2px solid blue;
+} */
+
+body {
+    margin: 0;
+}
+
+nav {
+    padding: 25px;
+}
+
 nav, footer {
     background-color: steelblue;
     color: white;
@@ -5,13 +17,11 @@ nav, footer {
     text-align: center;
 }
 
-p {
-    width: 80%;
-}
-
-footer p {
-    font-size: 20px;
-    margin: 20px auto;
+a {
+    font-size: 1.5em; /*One and a half times as big -> 16px (default) + 8px = 24px*/
+    color: white;
+    text-decoration: none;
+    padding: 25px;
 }
 
 a:hover {
@@ -22,15 +32,13 @@ a:hover {
 img {
     width: 80%;
     display: block;
+    border: 4px double steelblue;
     margin: 0 auto;
 }
 
-/* * {
-    border: 2px solid blue;
-} */
-
 h1 {
     text-align: center;
+    margin: 50px 0;
 }
 
 main p {
@@ -39,6 +47,12 @@ main p {
     text-align: center;
 }
 
-a {
-    font-size: 1.5em; /*One and a half times as big -> 16px (default) + 8px = 24px*/
+p {
+    width: 80%;
+}
+
+footer p {
+    font-size: 20px;
+    padding: 25px;
+    margin: 20px auto;
 }

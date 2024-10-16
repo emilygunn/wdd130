@@ -1,0 +1,35 @@
+/* * {
+    border: 1px dotted black;
+} */
+
+body {
+    max-width: 1000px;
+    margin: 0;
+    text-align: center;
+}
+
+.main_box {
+    
+}
+
+.main_image {
+    width: 100%;
+}
+
+div {
+    background-color: gray;
+}
+
+.circles_box {
+    padding: 25px;
+}
+
+img.circles {
+    width: 10%;
+    border-radius: 50%;
+    border: 10px solid rgb(66, 66, 66);
+    margin: 20px;
+}
+
+
+
