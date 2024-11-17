@@ -1,9 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Nothing+You+Could+Do&display=swap');
 
 :root {
+    /*Fonts*/
     --heading-font: "Nothing You Could Do", "Brush Script MT", serif; 
     --paragraph-font: "Dosis", "Courier New", sans-serif; 
+
+    /*Color Pallet*/
+    --primary-color: #00A6CA;
+    --secondary-color: #00CAAE;
+    --accent1-color: #00CA70;
+    --accent2-color: #007b96;
+
+    /*Defined colors*/
+    --headline-color-on-white:  #00A6CA;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #00A6CA; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #00A6CA  ;
+    --nav-link-color: #007b96;
+    --nav-background-color: #00CAAE;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #00A6CA;
 }
+
+/*Home Page - Default CSS*/
 
 #content {
     max-width: 1600px;
@@ -229,7 +249,77 @@ footer .social img {
 
 /*Rivers Page - Page 2*/
 
+#river-page {
+    /* grid-template-columns: repeat(5, 1fr); */
+    margin-top: 50px;
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
 
+section p {
+    color: var(--primary-color);
+}
+
+.river {
+    grid-column: 2/5;
+    grid-row: 1/2;
+}
+
+.wildlife {
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+
+.wildlife p {
+    color: black;
+}
+
+.rapids {
+    grid-column: 2/5;
+    grid-row: 3/4;
+}
+
+.heading {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+
+.color {
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    grid-column: 1/11;
+    grid-row: 2/3;
+    z-index: -1;
+}
+
+figure img {
+    width: 100%;
+    border: 5px double var(--accent1-color);
+}
+
+.river-image {
+    width: 100%;
+    grid-column: 7/10;
+    grid-row: 1/2;
+}
+
+.animal-image {
+    width: 100%;
+    grid-column: 6/9;
+    grid-row: 2/3;
+}
+
+.animal-image img {
+    border: 5px double var(--primary-color);
+}
+
+.rapids-image {
+    grid-column: 7/10;
+    grid-row: 3/4;
+}
 
 /*Always goes last*/
 @media screen and (max-width: 900px) {
